@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Un Paseo por la Ciencia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="page_style.css">
+	<link rel="stylesheet" href="style_subscribete.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+		<div id="titulo"><h1>Un Paseo por la Ciencia</h1></div>
+		<div id="imagen_cabecera">
+			<video id="imagen_cabecera"  preload="auto" autoplay="autoplay" loop="loop" muted="muted">
+          		 <source src="video1.mp4" type="video/mp4">
+          		 <source src="video1(1).ogv" type="video/ogv">
+            Tu navegador no soporta este formato de video.
+            </video>        
+		</div>
+		<nav id="botonera_cabecera">
+			<ul>
+				<li><a href="index.html">INICIO</a></li>
+				<li><a href="#">SOBRE ESTA WEB</a></li>
+				<li><a href="noticias.html" target='_blank'>NOTI-CIENCIA</a></li>
+				<li><a href="#">APUNTES</a></li>
+				<li><a href="contacto.html" target='_blank'>CONTACTO</a></li>
+			</ul>
+		</nav>
+	 </header>
+	<section id="contenido_principal">
+		<div id="seccion_div_formulario">
+						<h2>CONTACTANOS!</h2>
+						<p>
+							Recive mails con las noticias y novedades de la pagina
+						</p>
+				<form method="POST" action="#">
+						
+					<h3>Nombre </h3>
+					<input type="text" name="nombre" class="formulario" required>
+					<h3>Apellido </h3>
+					<input type="text" name="apellido" class="formulario" required>
+					<h3>Email</h3>
+					<input type="email" name="email" class="formulario" required>
+					<h3>Asunto</h3>
+					<input type="text" name="asunto" class="formulario" required>
+					<h3>Mensaje</h3>
+					<textarea name="mensaje" required></textarea>
+					<h3>Contactanos </h3>
+					<input type="submit" 
+						class="formulario">
+				</form>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">MATEMATICAS</a></li>
+				<li><a href="#">FISICA</a></li>
+				<li><a href="#">COMPUTACION</a></li>
+				<li><a href="#">ASTRONOMIA</a></li>
+				<li><a href="#">QUIMICA</a></li>
+				<li><a href="#">BIOLOGIA</a></li>
+				<li><a href="#">GEOLOGIA</a></li>
+				<li><a href="#">OTRAS</a></li>
+			</ul>
+		</nav>
+	</section>	
+<footer >
+		<nav id="pie_div_contenido">
+   			 <ul>
+     			 <li>
+     			 	<a title="Instagram" href="https://www.instagram.com/ezequielremus/" target="new">
+     			 		<img src="insta.png" alt="Instagram">
+     			 	</a>
+     			 </li>
+    			 <li>
+    			 	<a title="Facebook" href="https://www.facebook.com/Ezequiel.A.Remus" target="new">
+    			 		<img src="face.png" alt="Facebook">
+    			 	</a>
+    			 	<li>
+    			 	<a title="Github" href="https://github.com/remusezequiel" target="new">
+    			 		<img src="git4.png" alt="github">
+    			 	</a>
+    			 </li>
+			</ul>
+ 		 </nav>
+	</footer>
+</body>
+</html>
